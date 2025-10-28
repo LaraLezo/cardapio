@@ -105,8 +105,8 @@ footer {
 
   .preco {
     font-size: 1.1em;
-    text-align: left;
-    margin-top: 4px;
+    text-align: right;
+    margin-top: 3px;
   }
 
   .descricao-lanche {
@@ -118,3 +118,4 @@ footer {
     padding: 15px;
   }
 }
+
