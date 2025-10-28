@@ -61,7 +61,7 @@ header {
   font-weight: bold;
 }
 
-/* Descrição opcional */
+/* Descrição opcional (se quiser adicionar depois) */
 .descricao-lanche {
   font-size: 0.95em;
   color: #bbb;
@@ -78,44 +78,3 @@ footer {
   margin-top: 40px;
   border-top: 1px solid #333;
 }
-
-/* 📱 Ajustes para telas pequenas */
-@media (max-width: 600px) {
-  header {
-    font-size: 1em;
-    padding: 6px;
-  }
-
-  .categoria {
-    width: 95%;
-    padding: 15px;
-    margin: 20px auto;
-  }
-
-  .categoria h2 {
-    font-size: 1.3em;
-    padding: 8px;
-  }
-
-  .item {
-    font-size: 1em;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .preco {
-    font-size: 1.1em;
-    text-align: right;
-    margin-top: 3px;
-  }
-
-  .descricao-lanche {
-    font-size: 0.9em;
-  }
-
-  footer {
-    font-size: 0.9em;
-    padding: 15px;
-  }
-}
-
